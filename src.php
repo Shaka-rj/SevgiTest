@@ -281,8 +281,5 @@ class SevgiTest extends Algoritm {
 
 $SevgiTest = new SevgiTest();
 
-$SevgiTest->setter('tugilgan_sana', ['yigit' => '01.01.2000', 'qiz' => '01.01.2000']);
-
-var_dump($SevgiTest->getter('yil'));
 
 echo $SevgiTest->xato;
